@@ -7,6 +7,11 @@ print x
 
 
 names = ["Alice", "Bob", "Cara", "Editch"]
+
+namesArr = [name.lower() for name in names]
+
+print "HEY this is name ARR: " + str(namesArr)
+
 def filter_to_vowel_words(word_list):
     vowel_words = []
     for word in word_list:
