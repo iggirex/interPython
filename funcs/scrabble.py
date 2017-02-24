@@ -2,8 +2,6 @@ WORD_LIST = "sowpods.txt"
 
 wordlist = open(WORD_LIST).readlines()
 
-print(wordList)
-
 wordlist = [word.lower().strip() for word in wordlist]
 
 scores = {"a": 1, "b": 3, "c": 3, "d": 2, "e": 1, "f": 4, "g": 2,
