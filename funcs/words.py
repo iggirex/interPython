@@ -23,6 +23,9 @@ def areAllVowelsInWord(word):
     if count == 5:
         return True
 
+count = 0
 for word in scrabble.wordlist:
     if areAllVowelsInWord(word):
         print (str(word) + " has all the vowels in it")
+        count = count + 1
+print count
